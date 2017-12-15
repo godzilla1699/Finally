@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === '!Ping') {
+    	message.reply.send('Pong');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
+    if (message.content === '!Owner') {
+    	message.reply('This Amazing Bot Developed and Made by IAmRockMH2#4980!');
   	}
 });
 
