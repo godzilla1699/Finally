@@ -7,12 +7,22 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!Ping') {
-    	message.reply.('Pong');
+    	message.reply('Pong');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '!Owner') {
+    	message.reply('This Amazing Bot Developed and Made by IAmRockMH2#4980!');
+  	}
+client.on('message', message => {
+    if (message.content === '!ping') {
+    	message.reply('Pong');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!owner') {
     	message.reply('This Amazing Bot Developed and Made by IAmRockMH2#4980!');
   	}
 });
