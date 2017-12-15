@@ -1,6 +1,6 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "IAmTheRockMH2",
+  "description": "A Powerful Discord Bot",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
