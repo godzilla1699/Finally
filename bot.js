@@ -8,11 +8,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
-});        
-client.on('message', message => {
-    if (message.content === '!help') {
-    	message.reply('List of Commands Sended Via DMs');
-  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
