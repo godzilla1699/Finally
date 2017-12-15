@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!Ping') {
-    	message.reply.send('Pong');
+    	message.reply.('Pong');
   	}
 });
 
